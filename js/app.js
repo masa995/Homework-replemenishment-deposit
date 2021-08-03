@@ -1,4 +1,4 @@
-'use strict'
+'use strict';
 const formEl = document.getElementById('deposit-form');
 const amountInputEl = document.getElementById('amount-input');
 const periodInputEl = document.getElementById('period-input');
@@ -32,7 +32,7 @@ function calculateDeposit(amountDeposit, periodDeposit){
         total: total.toFixed(),
         profit: profit.toFixed(),
         percent: percentDeposit,
-    }
+    };
 }
 
 formEl.addEventListener('submit', function (evt){
